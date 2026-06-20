@@ -8,7 +8,7 @@ tags:
 - Brazil
 - Point of Sale
 - Card Processing
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 created: '2026-05-25'
 modified: '2026-05-25'
 description: >-
@@ -35,7 +35,7 @@ apis:
   - Debit Card
   - Tokenization
   - Sales
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://api.cieloecommerce.cielo.com.br
   humanURL: https://developercielo.github.io/manual/cielo-ecommerce
   description: >-
@@ -61,7 +61,7 @@ apis:
   - Authentication
   - Fraud Prevention
   - Card Not Present
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://mpi.braspag.com.br
   humanURL: https://developercielo.github.io/manual/3ds
   description: >-
@@ -83,7 +83,7 @@ apis:
   - Real-time Payments
   - mTLS
   - Brazil
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://api-mtls.cielo.com.br
   humanURL: https://developercielo.github.io/manual/apipix
   description: >-
@@ -104,7 +104,7 @@ apis:
   - Checkout
   - OAuth2
   - Social Commerce
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://cieloecommerce.cielo.com.br
   humanURL: https://developercielo.github.io/manual/linkdepagamentos5
   description: >-
@@ -131,7 +131,7 @@ apis:
   - Checkout
   - Hosted Payment Page
   - E-commerce
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://cieloecommerce.cielo.com.br
   humanURL: https://developercielo.github.io/manual/checkout-cielo
   description: >-
@@ -153,7 +153,7 @@ apis:
   - Cancellations
   - OAuth2
   - mTLS
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://api-internet.cielo.com.br
   humanURL: https://developercielo.github.io/manual/api-refunds
   description: >-
@@ -173,7 +173,7 @@ apis:
   - Disputes
   - OAuth2
   - mTLS
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://api-internet.cielo.com.br
   humanURL: https://developercielo.github.io/manual/api-chargeback-2-0
   description: >-
@@ -194,7 +194,7 @@ apis:
   - Reports
   - Webhooks
   - F360
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://financas.f360.com.br
   humanURL: https://developercielo.github.io/manual/edi-cielo-conciliador
   description: >-
@@ -212,7 +212,7 @@ apis:
   - Discounts
   - Loyalty
   - OAuth2
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://api.cielo.com.br
   humanURL: https://developercielo.github.io/manual/promotions
   description: >-
@@ -233,7 +233,7 @@ apis:
   - Cielo Smart
   - Remote Integration
   - In-Person Payments
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://api.cielo.com.br
   humanURL: https://developercielo.github.io/manual/cielo-lio
   description: >-
@@ -270,7 +270,7 @@ apis:
   - BIN
   - Card Validation
   - Lookup
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://apiquery.cieloecommerce.cielo.com.br
   humanURL: https://developercielo.github.io/manual/cielo-ecommerce
   description: >-
@@ -296,7 +296,7 @@ apis:
   - Digital Wallets
   - Apple Pay
   - Google Pay
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://api.cieloecommerce.cielo.com.br
   humanURL: https://developercielo.github.io/manual/e-wallets-ecommercecielo
   description: >-
@@ -312,7 +312,7 @@ apis:
   - SoftPOS
   - Mobile Acceptance
   - Contactless
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://api.cielo.com.br
   humanURL: https://www.cielo.com.br/maquininha-cartao/cielo-tap
   description: >-
