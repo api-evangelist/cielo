@@ -52,7 +52,7 @@ apis:
   - url: https://developercielo.github.io/manual/cielo-ecommerce#autenticação
     type: Authentication
   - url: https://github.com/DeveloperCielo/API-3.0-Python
-    type: SDK
+    type: SDKs
     title: Python SDK (API 3.0)
 - aid: cielo:cielo-3ds-api
   name: Cielo 3DS 2.2 Authentication API
@@ -117,13 +117,13 @@ apis:
   - url: https://developercielo.github.io/manual/linkdepagamentos5
     type: Documentation
   - url: https://github.com/DeveloperCielo/Link-de-Pagamento-Android
-    type: SDK
+    type: SDKs
     title: Android SDK
   - url: https://github.com/DeveloperCielo/Link-de-Pagamento-iOS
-    type: SDK
+    type: SDKs
     title: iOS SDK
   - url: https://github.com/DeveloperCielo/Link-de-Pagamento-Dart
-    type: SDK
+    type: SDKs
     title: Dart/Flutter SDK
 - aid: cielo:cielo-checkout-api
   name: Cielo Checkout API
@@ -144,7 +144,7 @@ apis:
   - url: https://github.com/DeveloperCielo/Checkout-Cielo
     type: GitHubRepository
   - url: https://github.com/DeveloperCielo/CheckoutCielo-Library
-    type: SDK
+    type: SDKs
     title: PHP Library
 - aid: cielo:cielo-refunds-api
   name: Cielo Refunds API
@@ -245,22 +245,22 @@ apis:
   - url: https://developercielo.github.io/manual/cielo-lio
     type: Documentation
   - url: https://github.com/DeveloperCielo/LIO-SDK-API-Integracao-Remota-v1-Java
-    type: SDK
+    type: SDKs
     title: Java SDK
   - url: https://github.com/DeveloperCielo/LIO-SDK-API-Integracao-Remota-v1-Android
-    type: SDK
+    type: SDKs
     title: Android SDK
   - url: https://github.com/DeveloperCielo/LIO-SDK-API-Integracao-Remota-v1-CSHARP
-    type: SDK
+    type: SDKs
     title: C# SDK
   - url: https://github.com/DeveloperCielo/LIO-SDK-API-Integracao-Remota-v1-PHP
-    type: SDK
+    type: SDKs
     title: PHP SDK
   - url: https://github.com/DeveloperCielo/LIO-SDK-Sample-Integracao-Local
-    type: SDK
+    type: SDKs
     title: Local Integration Sample (Kotlin)
   - url: https://github.com/DeveloperCielo/LIO-Hybrid-Integration-Sample-Flutter
-    type: SDK
+    type: SDKs
     title: Flutter Hybrid Sample
   - url: https://github.com/DeveloperCielo/order-management
     type: GitHubRepository
@@ -281,13 +281,13 @@ apis:
   - url: https://developercielo.github.io/manual/cielo-ecommerce
     type: Documentation
   - url: https://github.com/DeveloperCielo/cielo-bin-query-android
-    type: SDK
+    type: SDKs
     title: Android SDK
   - url: https://github.com/DeveloperCielo/cielo-bin-query-ios
-    type: SDK
+    type: SDKs
     title: iOS SDK
   - url: https://github.com/DeveloperCielo/cielo-bin-query-dart
-    type: SDK
+    type: SDKs
     title: Dart/Flutter SDK
 - aid: cielo:cielo-e-wallets-api
   name: Cielo E-Wallets API
@@ -323,7 +323,7 @@ apis:
   - url: https://www.cielo.com.br/maquininha-cartao/cielo-tap
     type: Documentation
   - url: https://github.com/DeveloperCielo/TapOnPhone
-    type: SDK
+    type: SDKs
     title: Tap on Phone SDK
 common:
 - url: https://www.cielo.com.br/
@@ -335,7 +335,7 @@ common:
 - url: https://minhaconta.cielo.com.br/
   type: Console
 - url: https://www.cielo.com.br/credenciamento
-  type: SignUp
+  type: Signup
 - url: https://www.cielo.com.br/maquininha-cartao
   type: Pricing
 - url: https://developercielo.github.io/tutorial/
@@ -368,46 +368,46 @@ common:
 - url: https://www.cielo.com.br/termos-de-uso
   type: TermsOfService
 - url: https://github.com/DeveloperCielo/API-3.0-Python
-  type: SDK
+  type: SDKs
   title: Python SDK (API 3.0)
 - url: https://github.com/DeveloperCielo/CheckoutCielo-Library
-  type: SDK
+  type: SDKs
   title: PHP Checkout Library
 - url: https://github.com/DeveloperCielo/python-cielo-webservice
-  type: SDK
+  type: SDKs
   title: Python Webservice 1.5 SDK
 - url: https://github.com/DeveloperCielo/LIO-SDK-API-Integracao-Remota-v1-Java
-  type: SDK
+  type: SDKs
   title: LIO Remote Java SDK
 - url: https://github.com/DeveloperCielo/LIO-SDK-API-Integracao-Remota-v1-Android
-  type: SDK
+  type: SDKs
   title: LIO Remote Android SDK
 - url: https://github.com/DeveloperCielo/LIO-SDK-API-Integracao-Remota-v1-CSHARP
-  type: SDK
+  type: SDKs
   title: LIO Remote C# SDK
 - url: https://github.com/DeveloperCielo/LIO-SDK-API-Integracao-Remota-v1-PHP
-  type: SDK
+  type: SDKs
   title: LIO Remote PHP SDK
 - url: https://github.com/DeveloperCielo/cielo-bin-query-android
-  type: SDK
+  type: SDKs
   title: BIN Query Android SDK
 - url: https://github.com/DeveloperCielo/cielo-bin-query-ios
-  type: SDK
+  type: SDKs
   title: BIN Query iOS SDK
 - url: https://github.com/DeveloperCielo/cielo-bin-query-dart
-  type: SDK
+  type: SDKs
   title: BIN Query Dart SDK
 - url: https://github.com/DeveloperCielo/Link-de-Pagamento-iOS
-  type: SDK
+  type: SDKs
   title: Payment Link iOS SDK
 - url: https://github.com/DeveloperCielo/Link-de-Pagamento-Android
-  type: SDK
+  type: SDKs
   title: Payment Link Android SDK
 - url: https://github.com/DeveloperCielo/Link-de-Pagamento-Dart
-  type: SDK
+  type: SDKs
   title: Payment Link Dart SDK
 - url: https://github.com/DeveloperCielo/TapOnPhone
-  type: SDK
+  type: SDKs
   title: Tap on Phone SDK
 - url: https://github.com/DeveloperCielo/EDI
   type: GitHubRepository
