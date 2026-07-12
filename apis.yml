@@ -326,6 +326,8 @@ apis:
     type: SDKs
     title: Tap on Phone SDK
 common:
+- type: DomainSecurity
+  url: security/cielo-domain-security.yml
 - url: https://www.cielo.com.br/
   type: Portal
 - url: https://developercielo.github.io/
