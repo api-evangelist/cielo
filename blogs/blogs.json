@@ -2,13 +2,11 @@
   "repo": "cielo",
   "feeds": [
     {
-      "source": "https://blog.cielo.com.br/",
-      "feed_url": "",
-      "saved": 0,
-      "method": "agent-scrape"
+      "source": "https://www.cielo.com.br/blog/",
+      "error": "HTTPError"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-27T12:32:40Z",
-  "agent_pulled": "2026-06-27"
+  "post_count": 5,
+  "fetched": "2026-07-11T11:50:51Z",
+  "agent_pulled": "2026-07-04"
 }
