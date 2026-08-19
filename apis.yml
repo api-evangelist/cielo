@@ -31,7 +31,7 @@ description: >-
   and the newer docs.cielo.com.br portal, including APIs for sales, queries, tokenization, 3DS 2.2 authentication, Pix
   with mTLS, chargeback management, refunds, reconciliation (Conciliador), and merchant promotions, along with open-source
   SDKs in Python, PHP, Java, C#, Kotlin, Swift, and Dart published from the DeveloperCielo GitHub organization.
-specificationVersion: '0.16'
+specificationVersion: '0.23'
 maintainers:
 - FN: API Evangelist
   url: http://apievangelist.com
