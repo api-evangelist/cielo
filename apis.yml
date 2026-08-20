@@ -6,6 +6,13 @@ tags:
 - Acquiring
 - Fintech
 - Brazil
+- Point-of-Sale
+- Card Processing
+tags_raw:
+- Payments
+- Acquiring
+- Fintech
+- Brazil
 - Point of Sale
 - Card Processing
 accessModel:
@@ -40,6 +47,13 @@ apis:
 - aid: cielo:cielo-ecommerce-api
   name: Cielo E-commerce API
   tags:
+  - E-Commerce
+  - Payments
+  - Credit Card
+  - Debit Card
+  - Tokenization
+  - Sales
+  tags_raw:
   - E-commerce
   - Payments
   - Credit Card
@@ -91,6 +105,12 @@ apis:
   tags:
   - Pix
   - Instant Payments
+  - Real-Time Payments
+  - mTLS
+  - Brazil
+  tags_raw:
+  - Pix
+  - Instant Payments
   - Real-time Payments
   - mTLS
   - Brazil
@@ -111,6 +131,11 @@ apis:
 - aid: cielo:cielo-payment-link-api
   name: Cielo Payment Link API
   tags:
+  - Payment Link
+  - Checkout
+  - Authentication
+  - Social Commerce
+  tags_raw:
   - Payment Link
   - Checkout
   - OAuth2
@@ -141,6 +166,10 @@ apis:
   tags:
   - Checkout
   - Hosted Payment Page
+  - E-Commerce
+  tags_raw:
+  - Checkout
+  - Hosted Payment Page
   - E-commerce
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://cieloecommerce.cielo.com.br
@@ -162,6 +191,11 @@ apis:
   tags:
   - Refunds
   - Cancellations
+  - Authentication
+  - mTLS
+  tags_raw:
+  - Refunds
+  - Cancellations
   - OAuth2
   - mTLS
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
@@ -180,6 +214,11 @@ apis:
 - aid: cielo:cielo-chargeback-api
   name: Cielo Chargeback API
   tags:
+  - Chargeback
+  - Disputes
+  - Authentication
+  - mTLS
+  tags_raw:
   - Chargeback
   - Disputes
   - OAuth2
@@ -203,6 +242,12 @@ apis:
   - Reconciliation
   - Conciliation
   - Reports
+  - Webhook
+  - F360
+  tags_raw:
+  - Reconciliation
+  - Conciliation
+  - Reports
   - Webhooks
   - F360
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
@@ -219,6 +264,11 @@ apis:
 - aid: cielo:cielo-promo-api
   name: Cielo Promo API
   tags:
+  - Promotions
+  - Discounts
+  - Loyalty
+  - Authentication
+  tags_raw:
   - Promotions
   - Discounts
   - Loyalty
@@ -239,6 +289,12 @@ apis:
 - aid: cielo:cielo-lio-remote-api
   name: Cielo LIO Remote Integration API
   tags:
+  - Point-of-Sale
+  - LIO
+  - Cielo Smart
+  - Remote Integration
+  - In-Person Payments
+  tags_raw:
   - Point of Sale
   - LIO
   - Cielo Smart
@@ -303,6 +359,11 @@ apis:
 - aid: cielo:cielo-e-wallets-api
   name: Cielo E-Wallets API
   tags:
+  - Wallets
+  - Digital Wallet
+  - Apple Pay
+  - Google Pay
+  tags_raw:
   - Wallets
   - Digital Wallets
   - Apple Pay
