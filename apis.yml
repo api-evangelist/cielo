@@ -61,8 +61,8 @@ apis:
   tags:
   - E-Commerce
   - Payments
-  - Credit Card
-  - Debit Card
+  - Credit Cards
+  - Debit Cards
   - Tokenization
   - Sales
   tags_raw:
@@ -143,7 +143,7 @@ apis:
 - aid: cielo:cielo-payment-link-api
   name: Cielo Payment Link API
   tags:
-  - Payment Link
+  - Payment Links
   - Checkout
   - Authentication
   - Social Commerce
@@ -202,7 +202,7 @@ apis:
   name: Cielo Refunds API
   tags:
   - Refunds
-  - Cancellations
+  - Cancellation
   - Authentication
   - mTLS
   tags_raw:
@@ -226,7 +226,7 @@ apis:
 - aid: cielo:cielo-chargeback-api
   name: Cielo Chargeback API
   tags:
-  - Chargeback
+  - Chargebacks
   - Disputes
   - Authentication
   - mTLS
