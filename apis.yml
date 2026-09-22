@@ -1,6 +1,9 @@
 aid: cielo
 url: https://raw.githubusercontent.com/api-evangelist/cielo/refs/heads/main/apis.yml
 name: Cielo
+x-docs-platform: readme
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-21
 tags:
 - Payments
 - Acquiring
