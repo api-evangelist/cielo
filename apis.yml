@@ -19,16 +19,23 @@ tags_raw:
 - Point of Sale
 - Card Processing
 deliveryModel:
-  model: unknown
+  model: saas
+  license_evidence:
+    not_product:
+    - developercielo/checkout-cielo
+    - developercielo/developercielo.github.io
+    - developercielo/edi
+    - developercielo/habilitacao-meios-de-pagamento
+    - developercielo/order-management
   open_source: unknown
   commercial: true
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
+  label: Hosted service · you call their endpoint
   confidence: low
   source:
   - pricing
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
