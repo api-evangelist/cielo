@@ -1,0 +1,39 @@
+edges:
+- partner_name: Open Finance Brasil
+  partner: null
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://data.directory.openbankingbrasil.org.br/participants
+  contract_reference:
+    register: Open Finance Brasil directory (Banco Central do Brasil)
+    spec_file: null
+    role: participant
+    registered_name: CIELO S.A.
+    register_id: d96d6def-7f8f-5623-b15a-0bb5910920d1
+    matched_domain: cielo.com.br
+    api_families:
+    - accounts
+    - admin
+    - channels_electronic-channels
+    - channels_phone-channels
+    - consents
+    - customers-business
+    - discovery_outages
+    - discovery_status
+    - enrollments
+    - opendata-accounts_business-accounts
+    - opendata-acquiring-services_businesses
+    - opendata-acquiring-services_personals
+    - payments-consents
+    - payments-pix
+    - payments-pix-recurring-payments
+    - payments-recurring-consents
+    - resources
+    detected_by: sweep-standard-registers.py
+    detected: '2026-10-12'
+generated: '2026-10-12'
+method: searched
+checked:
+- https://data.directory.openbankingbrasil.org.br/participants
