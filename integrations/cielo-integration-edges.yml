@@ -32,7 +32,7 @@ edges:
     - payments-recurring-consents
     - resources
     detected_by: sweep-standard-registers.py
-    detected: '2026-10-12'
+    detected: '2026-10-14'
 generated: '2026-10-12'
 method: searched
 checked:
