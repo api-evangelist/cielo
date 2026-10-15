@@ -33,7 +33,107 @@ edges:
     - resources
     detected_by: sweep-standard-registers.py
     detected: '2026-10-14'
+- partner_name: Open Finance Brasil functional certification
+  partner: null
+  partner_match: register
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://data.directory.openbankingbrasil.org.br/participants
+  category: open finance conformance (Brazil)
+  contract_reference:
+    register: Open Finance Brasil directory, per-family CertificationStatus (submissions in github.com/OpenBanking-Brasil/conformance)
+    spec_file: null
+    standard: Open Finance Brasil
+    role: certified-participant
+    registrations:
+    - registered_name: CIELO S.A.
+      register_id: d96d6def-7f8f-5623-b15a-0bb5910920d1
+      cnpj: 01027058000191
+      matched_domain: cielo.com.br
+      matched_by: domain
+    certified_products:
+    - product: accounts
+      families:
+      - accounts
+      status: Self-Certified
+      expires: '2027-07-27'
+      certification_uri: https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/accounts/2.5.1/01027058_CIELO-Open-Finance-2.0.0-(Jun-2026)---accounts-v2._accounts_v2.5.1_24-07-2026.json
+    - product: customer-data
+      families:
+      - consents
+      - customers-business
+      - resources
+      status: Self-Certified
+      expires: '2027-04-30'
+      certification_uri: https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/business/2.0.1/01027058_CIELO-Open-Banking-1.0.0_business_v2_30-11-2023.json
+    - product: open-data
+      families:
+      - channels_electronic-channels
+      - channels_phone-channels
+      - opendata-accounts_business-accounts
+      - opendata-acquiring-services_businesses
+      - opendata-acquiring-services_personals
+      status: Self-Certified
+      expires: '2027-10-14'
+      certification_uri: https://web.conformance.directory.openbankingbrasil.org.br/plan-detail.html?plan=RZKw89nWNYhy5&public=true
+    - product: payments
+      families:
+      - enrollments
+      - payments-consents
+      - payments-pix
+      status: Self-Certified
+      expires: '2027-10-01'
+      certification_uri: https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/payments/5.0.0/01027058_payments-v5.0.0_payments_v5.0_18-05-2026.json
+    - product: recurring-payments
+      families:
+      - payments-pix-recurring-payments
+      - payments-recurring-consents
+      status: Self-Certified
+      expires: '2026-11-03'
+      certification_uri: https://github.com/OpenBanking-Brasil/conformance/blob/main/submissions/functional/automatic-payments/2.0.0/01027058_automatic-payments-v2.0.0_automatic-payments_v2.0.0_09-04-2025.json
+    signal_note: one entry per PRODUCT TYPE, lapsed flagged; family counts are context, never read
+    detected_by: sweep-latam-open-finance.py
+    detected: '2026-10-15'
+  detected_by: sweep-latam-open-finance.py
+  first_seen: '2026-10-15'
+- partner_name: Pix (Banco Central do Brasil)
+  partner: null
+  partner_match: register
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.bcb.gov.br/estabilidadefinanceira/participantespix
+  category: instant payments (Brazil)
+  contract_reference:
+    register: Pix participants (Banco Central do Brasil, https://www.bcb.gov.br/content/estabilidadefinanceira/participantes_pix/lista-participantes-instituicoes-em-adesao-pix-20261015.csv)
+    spec_file: null
+    standard: Pix
+    role: pix-participant
+    registrations:
+    - registered_name: CIELO IP S.A.
+      ispb: 01027058
+      cnpj: 01.027.058/0001-91
+      institution_type: Instituição de Pagamento
+      spi_participation: Direta
+      pix_participation: Facultativa
+      pix_modality: Provedor de Conta Transacional
+      payment_initiation: true
+      matched_domain: cielo.com.br
+      matched_by: domain
+      identity: Open Finance Brasil directory, same CNPJ 01027058000191 ('CIELO S.A.')
+    signal_note: 'participation only: the domain comes from a labelled lookup (registrations[].identity)'
+    detected_by: sweep-latam-open-finance.py
+    detected: '2026-10-15'
+  detected_by: sweep-latam-open-finance.py
+  first_seen: '2026-10-15'
 generated: '2026-10-12'
 method: searched
 checked:
 - https://data.directory.openbankingbrasil.org.br/participants
+- https://www.bcb.gov.br/estabilidadefinanceira/participantespix
+source:
+- https://data.directory.openbankingbrasil.org.br/participants
+- https://www.bcb.gov.br/estabilidadefinanceira/participantespix
