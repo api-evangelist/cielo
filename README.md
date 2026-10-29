@@ -1,4 +1,4 @@
-# Cielo (cielo)
+# Cielo
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,307 +66,66 @@
 
 Cielo is one of the largest Brazilian card acquirers and a publicly traded company (B3:CIEL3), originally formed as a joint venture between Banco Bradesco and Banco do Brasil. The company processes credit, debit, Pix, QR Code, and boleto transactions for hundreds of thousands of merchants across Brazil, providing both in-person acquiring through its family of Cielo Smart (formerly LIO) Android POS terminals and Tap on Phone, and online payment processing through its e-Commerce API, Checkout, Payment Links, and Braspag gateway. Cielo exposes a broad developer surface through developercielo.github.io and the newer docs.cielo.com.br portal, including APIs for sales, queries, tokenization, 3DS 2.2 authentication, Pix with mTLS, chargeback management, refunds, reconciliation (Conciliador), and merchant promotions, along with open-source SDKs in Python, PHP, Java, C#, Kotlin, Swift, and Dart published from the DeveloperCielo GitHub organization.
 
-**URL:** [https://developercielo.github.io/](https://developercielo.github.io/)
+**Areas:** Payments · Acquiring · Fintech · Brazil · Point-of-Sale · Card Processing
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Cielo on APIs.io
 
-## Tags
+Everything profiled for Cielo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cielo/](https://apis.io/providers/cielo/)** — or go straight to one of the APIs or properties below.
 
-- Payments
-- Acquiring
-- Fintech
-- Brazil
-- Point of Sale
-- Card Processing
+### APIs (13)
 
-## Timestamps
+- [Cielo E-commerce API](https://apis.io/apis/cielo/cielo-ecommerce-api/) — The Cielo E-commerce API (also known as Cielo API 3.0) is the company's flagship online payment processing API. It accepts credit cards from Visa,…
+- [Cielo 3DS 2.2 Authentication API](https://apis.io/apis/cielo/cielo-3ds-api/) — Cielo 3DS 2.2 is an EMVCo-compliant cardholder authentication service exposed via the Braspag MPI endpoint. It confirms that the buyer is the legitimate…
+- [Cielo Pix API](https://apis.io/apis/cielo/cielo-pix-api/) — Cielo Pix API exposes the Brazilian Central Bank's instant-payment rails on a Cielo-hosted endpoint. It implements OAuth 2.0 Client Credentials with…
+- [Cielo Payment Link API](https://apis.io/apis/cielo/cielo-payment-link-api/) — The Cielo Payment Link API lets merchants generate short, shareable payment URLs for sale on social media, WhatsApp, SMS, or email without a full…
+- [Cielo Checkout API](https://apis.io/apis/cielo/cielo-checkout-api/) — Cielo Checkout is a hosted payment-page solution that handles credit card, debit, Pix, and boleto flows end-to-end, including PCI scope reduction and…
+- [Cielo Refunds API](https://apis.io/apis/cielo/cielo-refunds-api/) — The Cielo Refunds API processes single and batch refund requests against captured transactions. Authentication is OAuth 2.0 Client Credentials issued…
+- [Cielo Chargeback API](https://apis.io/apis/cielo/cielo-chargeback-api/) — The Cielo Chargeback API gives merchants programmatic access to dispute lifecycle management. It uses OAuth 2.0 Client Credentials plus mTLS against the…
+- [Cielo Conciliador API](https://apis.io/apis/cielo/cielo-conciliador-api/) — The Cielo Conciliador API (powered by F360) provides programmatic access to financial reconciliation data including card installments, title installments,…
+- [Cielo Promo API](https://apis.io/apis/cielo/cielo-promo-api/) — The Cielo Promo API lets partner platforms surface merchant promotions and discounts to cardholders. It uses an OAuth 2.0 authorization-code flow with…
+- [Cielo LIO Remote Integration API](https://apis.io/apis/cielo/cielo-lio-remote-api/) — The Cielo LIO (now Cielo Smart) Remote Integration API lets ERP and commercial-automation systems drive payment operations on Cielo's Android POS terminals…
+- [Cielo BIN Query API](https://apis.io/apis/cielo/cielo-bin-query-api/) — The Cielo BIN Query service returns metadata for a card BIN (Bank Identification Number) — issuing brand, card type, and additional rules — so e-commerce…
+- [Cielo E-Wallets API](https://apis.io/apis/cielo/cielo-e-wallets-api/) — The Cielo E-Wallets API extends the e-Commerce API with support for digital-wallet payment methods, letting merchants accept Apple Pay, Google Pay, Samsung…
+- [Cielo Tap on Phone](https://apis.io/apis/cielo/cielo-tap-on-phone/) — Cielo Tap on Phone (Cielo Tap) is the company's SoftPOS solution: it turns an NFC-capable smartphone into a card acceptance device with no separate…
 
-- **Created:** 2026-05-25
-- **Modified:** 2026-05-25
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Cielo E-commerce API
+#### Security (1)
 
-The Cielo E-commerce API (also known as Cielo API 3.0) is the company's flagship online payment processing API, accepting credit cards from Visa, Mastercard, Amex, Elo, Hipercard, and more, as well as debit with 3DS 2.2, Pix, boleto, QR Code, and installments.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://developercielo.github.io/manual/cielo-ecommerce](https://developercielo.github.io/manual/cielo-ecommerce)
+- [Cielo Domain Security](https://apis.io/security/cielo/cielo-domain-security/)
 
-#### Tags
+## Where to find this API
 
-- E-commerce, Payments, Credit Card, Debit Card, Tokenization, Sales
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-#### Properties
-
-- [Documentation](https://developercielo.github.io/manual/cielo-ecommerce)
-- [Sandbox](https://apisandbox.cieloecommerce.cielo.com.br)
-- [Authentication](https://developercielo.github.io/manual/cielo-ecommerce#autenticação)
-- [SDK — Python (API 3.0)](https://github.com/DeveloperCielo/API-3.0-Python)
-
-### Cielo 3DS 2.2 Authentication API
-
-EMVCo-compliant cardholder authentication exposed via Braspag MPI; shifts chargeback liability to the issuer for authenticated card-not-present transactions.
-
-**Human URL:** [https://developercielo.github.io/manual/3ds](https://developercielo.github.io/manual/3ds)
-
-#### Tags
-
-- 3D Secure, Authentication, Fraud Prevention, Card Not Present
-
-#### Properties
-
-- [Documentation](https://developercielo.github.io/manual/3ds)
-- [Sandbox](https://mpisandbox.braspag.com.br)
-
-### Cielo Pix API
-
-Brazilian Central Bank Pix rails surfaced over OAuth 2.0 with certificate-bound tokens and mTLS, covering immediate charges, recurring charges, refunds, and webhooks.
-
-**Human URL:** [https://developercielo.github.io/manual/apipix](https://developercielo.github.io/manual/apipix)
-
-#### Tags
-
-- Pix, Instant Payments, Real-time Payments, mTLS, Brazil
-
-#### Properties
-
-- [Documentation](https://developercielo.github.io/manual/apipix)
-- [Sandbox](https://api2.cielo.com.br/sandbox/cielo-pix/v1)
-
-### Cielo Payment Link API
-
-OAuth 2.0-secured API that generates short, shareable payment URLs for social commerce, with mobile SDKs for iOS, Android, and Flutter.
-
-**Human URL:** [https://developercielo.github.io/manual/linkdepagamentos5](https://developercielo.github.io/manual/linkdepagamentos5)
-
-#### Tags
-
-- Payment Link, Checkout, OAuth2, Social Commerce
-
-#### Properties
-
-- [Documentation](https://developercielo.github.io/manual/linkdepagamentos5)
-- [SDK — Android](https://github.com/DeveloperCielo/Link-de-Pagamento-Android)
-- [SDK — iOS](https://github.com/DeveloperCielo/Link-de-Pagamento-iOS)
-- [SDK — Dart/Flutter](https://github.com/DeveloperCielo/Link-de-Pagamento-Dart)
-
-### Cielo Checkout API
-
-Hosted payment-page solution handling card, Pix, and boleto flows end-to-end with PCI scope reduction and webhook notifications.
-
-**Human URL:** [https://developercielo.github.io/manual/checkout-cielo](https://developercielo.github.io/manual/checkout-cielo)
-
-#### Tags
-
-- Checkout, Hosted Payment Page, E-commerce
-
-#### Properties
-
-- [Documentation](https://developercielo.github.io/manual/checkout-cielo)
-- [GitHubRepository](https://github.com/DeveloperCielo/Checkout-Cielo)
-- [SDK — PHP Library](https://github.com/DeveloperCielo/CheckoutCielo-Library)
-
-### Cielo Refunds API
-
-OAuth 2.0 (Keycloak) plus mTLS API for single and batch refund requests, with PDF and ZIP letter generation.
-
-**Human URL:** [https://developercielo.github.io/manual/api-refunds](https://developercielo.github.io/manual/api-refunds)
-
-#### Tags
-
-- Refunds, Cancellations, OAuth2, mTLS
-
-#### Properties
-
-- [Documentation](https://developercielo.github.io/manual/api-refunds)
-- [Sandbox](https://apihml-internet.cielo.com.br/refunds-api/v1)
-
-### Cielo Chargeback API
-
-Programmatic dispute lifecycle management — accept, refuse, query, and download issuer evidence — secured by OAuth 2.0 and mTLS.
-
-**Human URL:** [https://developercielo.github.io/manual/api-chargeback-2-0](https://developercielo.github.io/manual/api-chargeback-2-0)
-
-#### Tags
-
-- Chargeback, Disputes, OAuth2, mTLS
-
-#### Properties
-
-- [Documentation](https://developercielo.github.io/manual/api-chargeback-2-0)
-- [Sandbox](https://apihml-internet.cielo.com.br/cielo-chargeback-sys-sandbox/chargeback/v1/)
-
-### Cielo Conciliador API
-
-F360-powered reconciliation API exposing card installments, title installments, bank statements, and asynchronous report generation with webhook callbacks.
-
-**Human URL:** [https://developercielo.github.io/manual/edi-cielo-conciliador](https://developercielo.github.io/manual/edi-cielo-conciliador)
-
-#### Tags
-
-- Reconciliation, Conciliation, Reports, Webhooks, F360
-
-#### Properties
-
-- [Documentation](https://developercielo.github.io/manual/edi-cielo-conciliador)
-
-### Cielo Promo API
-
-OAuth 2.0 authorization-code API for distributing merchant promotions and discounts to cardholders through partner apps.
-
-**Human URL:** [https://developercielo.github.io/manual/promotions](https://developercielo.github.io/manual/promotions)
-
-#### Tags
-
-- Promotions, Discounts, Loyalty, OAuth2
-
-#### Properties
-
-- [Documentation](https://developercielo.github.io/manual/promotions)
-- [Sandbox](https://api.cielo.com.br/sandbox/promotions/v1)
-
-### Cielo LIO Remote Integration API
-
-Cloud API for driving Cielo Smart (formerly LIO) Android POS terminals from ERP and commercial-automation systems, with Java, Android, C#, PHP, and Kotlin SDKs.
-
-**Human URL:** [https://developercielo.github.io/manual/cielo-lio](https://developercielo.github.io/manual/cielo-lio)
-
-#### Tags
-
-- Point of Sale, LIO, Cielo Smart, Remote Integration, In-Person Payments
-
-#### Properties
-
-- [Documentation](https://developercielo.github.io/manual/cielo-lio)
-- [SDK — Java](https://github.com/DeveloperCielo/LIO-SDK-API-Integracao-Remota-v1-Java)
-- [SDK — Android](https://github.com/DeveloperCielo/LIO-SDK-API-Integracao-Remota-v1-Android)
-- [SDK — C#](https://github.com/DeveloperCielo/LIO-SDK-API-Integracao-Remota-v1-CSHARP)
-- [SDK — PHP](https://github.com/DeveloperCielo/LIO-SDK-API-Integracao-Remota-v1-PHP)
-- [SDK — Local Integration Sample (Kotlin)](https://github.com/DeveloperCielo/LIO-SDK-Sample-Integracao-Local)
-- [SDK — Flutter Hybrid Sample](https://github.com/DeveloperCielo/LIO-Hybrid-Integration-Sample-Flutter)
-- [GitHubRepository — Order Manager](https://github.com/DeveloperCielo/order-management)
-
-### Cielo BIN Query API
-
-BIN lookup service exposing card metadata so e-commerce checkouts can validate brand and card type before authorization.
-
-**Human URL:** [https://developercielo.github.io/manual/cielo-ecommerce](https://developercielo.github.io/manual/cielo-ecommerce)
-
-#### Tags
-
-- BIN, Card Validation, Lookup
-
-#### Properties
-
-- [Documentation](https://developercielo.github.io/manual/cielo-ecommerce)
-- [SDK — Android](https://github.com/DeveloperCielo/cielo-bin-query-android)
-- [SDK — iOS](https://github.com/DeveloperCielo/cielo-bin-query-ios)
-- [SDK — Dart/Flutter](https://github.com/DeveloperCielo/cielo-bin-query-dart)
-
-### Cielo E-Wallets API
-
-Extension of the e-Commerce API for accepting Apple Pay, Google Pay, Samsung Pay, and other digital wallets.
-
-**Human URL:** [https://developercielo.github.io/manual/e-wallets-ecommercecielo](https://developercielo.github.io/manual/e-wallets-ecommercecielo)
-
-#### Tags
-
-- Wallets, Digital Wallets, Apple Pay, Google Pay
-
-#### Properties
-
-- [Documentation](https://developercielo.github.io/manual/e-wallets-ecommercecielo)
-
-### Cielo Tap on Phone
-
-SoftPOS solution turning NFC-capable smartphones into card acceptance devices with no separate hardware.
-
-**Human URL:** [https://www.cielo.com.br/maquininha-cartao/cielo-tap](https://www.cielo.com.br/maquininha-cartao/cielo-tap)
-
-#### Tags
-
-- Tap to Pay, SoftPOS, Mobile Acceptance, Contactless
-
-#### Properties
-
-- [Documentation](https://www.cielo.com.br/maquininha-cartao/cielo-tap)
-- [SDK — Tap on Phone](https://github.com/DeveloperCielo/TapOnPhone)
-
-## Common
-
-- [Portal](https://www.cielo.com.br/)
-- [DeveloperPortal](https://developercielo.github.io/)
 - [Documentation](https://docs.cielo.com.br/)
-- [Console](https://minhaconta.cielo.com.br/)
-- [SignUp](https://www.cielo.com.br/credenciamento)
+- [Getting started](https://developercielo.github.io/tutorial/)
+- [API reference](https://developercielo.github.io/manual/cielo-ecommerce)
 - [Pricing](https://www.cielo.com.br/maquininha-cartao)
-- [GettingStarted](https://developercielo.github.io/tutorial/)
-- [APIReference](https://developercielo.github.io/manual/cielo-ecommerce)
 - [Support](https://atendimento.cielo.com.br/)
-- [Hub — Investor Relations](https://ri.cielo.com.br/)
 - [Blog](https://www.cielo.com.br/blog/)
-- [GitHubOrganization](https://github.com/DeveloperCielo)
-- [GitHubRepository — Developer Site](https://github.com/DeveloperCielo/developercielo.github.io)
-- [Tutorials](https://github.com/DeveloperCielo/Tutorial)
-- [LinkedIn](https://www.linkedin.com/company/cielo)
-- [YouTube](https://www.youtube.com/user/cielobrasil)
-- [StackOverflow](https://stackoverflow.com/questions/tagged/cielo)
-- [PrivacyPolicy](https://www.cielo.com.br/politica-de-privacidade)
-- [TermsOfService](https://www.cielo.com.br/termos-de-uso)
-- [BestPractices — E-commerce (Luhn / BIN)](https://github.com/DeveloperCielo/Boas-praticas-de-ecommerce)
+- [Terms of service](https://www.cielo.com.br/termos-de-uso)
+- [Privacy policy](https://www.cielo.com.br/politica-de-privacidade)
+- [GitHub](https://github.com/DeveloperCielo)
 
-## Features
+## API Evangelist rating
 
-- One of the largest Brazilian card acquirers, listed on B3 as CIEL3
-- Originally a joint venture of Banco Bradesco and Banco do Brasil
-- Accepts 80+ card brands, Pix, QR Code, NFC, and boleto
-- Family of Cielo Smart (formerly LIO) Android POS terminals (Flash, Smart)
-- SoftPOS via Cielo Tap (Tap on Phone) — no separate hardware
-- Online acquiring via Cielo e-Commerce API (Cielo API 3.0)
-- Hosted Cielo Checkout and Payment Links for low-code acceptance
-- 3DS 2.2 authentication via Braspag MPI with liability shift
-- Tokenization and recurring payments via the e-Commerce API
-- Pix via OAuth 2.0 with certificate-bound tokens and mTLS
-- Programmatic chargeback and refund lifecycle management
-- Financial reconciliation via Cielo Conciliador (F360-powered)
-- Promotion distribution to cardholders via Cielo Promo
-- Braspag-powered Gateway, Payment Split, and Risk Management
-- Pre-built connectors for major Brazilian e-commerce platforms
-- Open-source SDKs across Python, PHP, Java, C#, Kotlin, Swift, Dart
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-## Use Cases
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-- **In-Person Card Acceptance** — POS acceptance on Cielo Smart Android terminals
-- **SoftPOS / Tap on Phone** — Contactless acceptance on NFC smartphones via Cielo Tap
-- **Online Card Acquiring** — Cielo e-Commerce API for web and app checkout
-- **Hosted Checkout and Payment Links** — Low-code acceptance over shareable URLs
-- **Pix Charges and Refunds** — Immediate and recurring Pix with mTLS-secured access
-- **3DS 2.2 Authentication** — Liability-shifted CNP authentication via Braspag MPI
-- **Dispute and Refund Management** — Bulk chargeback and refund processing
-- **Financial Reconciliation** — Card and title installments via the Conciliador API
-- **Recurring Payments and Tokenization** — Card-on-file billing with Zero Auth
-- **Merchant Promotion Distribution** — Discount surfacing through partner apps
+## How this profile is made
 
-## Integrations
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- **Banco Bradesco** — Founding shareholder; merchant onboarding channel
-- **Banco do Brasil** — Founding shareholder; merchant onboarding channel
-- **Braspag** — Cielo subsidiary powering Gateway, Split, Risk, and 3DS MPI
-- **F360** — Powers the Cielo Conciliador reconciliation API
-- **Banco Central do Brasil (BCB) Pix** — Underlying instant-payments rail
-- **Visa, Mastercard, Elo, Amex, Hipercard** — Card schemes (80+ brands total)
-- **Apple Pay, Google Pay, Samsung Pay** — Digital wallets via E-Wallets API
-- **VTEX, Magento, WooCommerce** — E-commerce connectors on docs.cielo.com.br
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cielo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Solutions
+## Open an issue
 
-- **Cielo e-Commerce** — Online acquiring stack (API, Checkout, Links, 3DS, BIN, Wallets)
-- **Cielo Smart (LIO)** — Android POS hardware and software platform
-- **Cielo Tap** — SoftPOS / Tap on Phone solution
-- **Braspag** — Enterprise gateway, payment split, and risk management
-- **Cielo Promo** — Promotion distribution to consumer-facing partner apps
-- **Cielo Conciliador** — Reconciliation and back-office reporting (F360)
-
-## Maintainers
-
-- **API Evangelist** — [info@apievangelist.com](mailto:info@apievangelist.com) — [http://apievangelist.com](http://apievangelist.com)
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cielo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
